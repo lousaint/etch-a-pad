@@ -1,9 +1,36 @@
+body {
+  background-color: #710d0d;
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  color: #b7a64a;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3c3c3c;
+  margin-bottom: 20px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  border-width: 3px;
+}
+
 #container {
   width: 600px;
   height: 600px;
   padding: 0;
   margin: auto;
-  border: 1px solid black;
+  border-top: 3px solid #441a1a;
+  border-bottom: 3px solid #7b2727;
+  border-right: 3px solid #a04747;
+  border-left: 3px solid #6b3333;
+  background-color: #adadad;
 }
 
 .row {
