@@ -1,36 +1,60 @@
 body {
   background-color: #710d0d;
-  text-align: center;
 }
 
 h1 {
-  font-family: cursive;
   text-align: center;
   font-weight: normal;
   font-style: italic;
   color: #b7a64a;
 }
 
-button {
+#controls {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+#options {
+  float: right;
+  padding: 0px 10px 0px 10px;
+  background-color: white;
+}
+
+#options p {
+  margin-top: 0;
+}
+
+#shakebutton {
   font-size: 16px;
   font-weight: bold;
   color: #3c3c3c;
-  margin-bottom: 20px;
   padding: 5px 15px 5px 15px;
   border-radius: 3px;
   border-width: 3px;
 }
 
+#gridsizeinput {
+  width: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.checkbox {
+  float: right;
+  margin: 0;
+}
+
 #container {
   width: 600px;
   height: 600px;
+  clear: both;
   padding: 0;
   margin: auto;
   border-top: 3px solid #441a1a;
-  border-bottom: 3px solid #7b2727;
+  border-bottom: 3px solid #441a1a;
   border-right: 3px solid #a04747;
-  border-left: 3px solid #6b3333;
-  background-color: #adadad;
+  border-left: 3px solid #a04747;
 }
 
 .row {
@@ -41,7 +65,8 @@ button {
 .square {
   padding: 0;
   margin: 0;
-  display: inline-block;
+  float: left;
+  background-color: #c8c8c8;
 }
 
 .highlight {

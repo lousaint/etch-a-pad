@@ -3,13 +3,22 @@
   <head>
     <title>Etch-A-Pad</title>
     <link rel="stylesheet" type="text/css" href="styles/etchapad.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
   </head>
   <body>
     <h1>Etch-A-Pad</h1>
-    <button id="shakebutton" type="button">Shake me!</button>
+    <div id="controls">
+      <button id="shakebutton" type="button">Shake me!</button>
+      <div id="options">
+        <p>Grid Size <input type="text" id="gridsizeinput" name="gridsize" value="16"> <button id="gridsizebutton">Set</button></p>
+        <p>Random Colors <input type="checkbox" class="checkbox" id="randomcolorsinput" name="randomcolors" value="random"></p>
+        <p>Progresive Shading <input type="checkbox" class="checkbox" id="shadinginput" name="progressiveshading"></p>
+      </div>
+    </div>
     <div id="container">
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="scripts/etchapad.js"></script>
   </body>
 </html>
